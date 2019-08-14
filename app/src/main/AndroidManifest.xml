@@ -13,6 +13,37 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.ResponseRequestFundActivity"
+            android:label="@string/title_activity_response_request_fund"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activities.RequestFundActivity"
+            android:label="@string/title_activity_request_fund"
+            android:parentActivityName=".activities.RequestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ke.co.dinaro.activities.RequestActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RequestActivity"
+            android:label="@string/title_activity_request"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ke.co.dinaro.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ViewReceiptActivity"
+            android:label="@string/title_activity_view_receipt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ke.co.dinaro.MainActivity" />
+        </activity>
+        <activity
             android:name=".activities.LogInActivity"
             android:label="@string/title_activity_log_in"
             android:parentActivityName=".activities.StartScreenActivity"
@@ -31,7 +62,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"

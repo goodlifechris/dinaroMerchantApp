@@ -3,45 +3,40 @@ package ke.co.dinaro.activities;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.bumptech.glide.Glide;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ke.co.dinaro.MainActivity;
 import ke.co.dinaro.R;
 
-public class LogInActivity extends AppCompatActivity {
-
-    ImageView imageView;
-    @BindView(R.id.buttonLogIn)
-    Button buttonLogIn;
+public class RequestFundActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_in);
-        ButterKnife.bind(this);
-
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_arrow_back_black_18dp);
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorWhite)));
-        getSupportActionBar().setElevation(0);
+        setContentView(R.layout.activity_request_fund);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ButterKnife.bind(this);
 
-        imageView = findViewById(R.id.imageView);
-        Glide.with(this).load(R.drawable.img_flower).into(imageView);
 
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorWhite)));
+        getSupportActionBar().setElevation(0);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        Glide.with(this).load(R.drawable.img_flower).into((ImageView) findViewById(R.id.imageView));
     }
 
-    @OnClick(R.id.buttonLogIn)
+    @OnClick(R.id.btn_request)
     public void onViewClicked() {
-        startActivity(new Intent(this, MainActivity.class));
-        finish();
+        startActivity(new Intent(this,ResponseRequestFundActivity.class));
     }
 }

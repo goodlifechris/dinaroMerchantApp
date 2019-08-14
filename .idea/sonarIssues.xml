@@ -8,16 +8,6 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/MainActivity.java">
           <value>
             <set />
@@ -28,67 +18,72 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/activities/StartScreenActivity.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/activities/RequestActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/adapter/ViewPagerAdapter.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/activities/RequestFundActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/fragments/EasyReconciliationFragment.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/activities/RequestFundNextActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/fragments/MonitorYourSalesFragment.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/activities/ResponseRequestFundActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/fragments/SplashFragment.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/activities/ViewReceiptActivity.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/util/ZoomOutPageTransformer.kt">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/fragments/HomeFragment.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/util/views/GradientTextView.java">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/fragments/SettlementFragment.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/background_button.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/java/ke/co/dinaro/fragments/ShowSalesBalance.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/circle_background.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/background_button_green_curved.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_activity.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/background_edittext_curved.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back_black_18dp.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/circle_background_green.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/clear_line_background.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_log_in.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/dotted_line_background.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_mpesa.xml">
           <value>
             <set />
           </value>
@@ -98,7 +93,22 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_start_screen.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_request.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_request_fund.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_response_request_fund.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_view_receipt.xml">
           <value>
             <set />
           </value>
@@ -108,47 +118,52 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_start_screen.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_request.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_easy_reconciliation.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_request_fund.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_monitor_your_sales.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_request_fund_next.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_response_request_fund.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/content_view_receipt.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_settlement.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/build.gradle">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_show_sales_balance.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../findit/app/src/main/java/ke/co/findit/activity/SplashScreenActivity.java">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/layout_sales_transaction_item.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/layout_transaction_item.xml">
           <value>
             <set />
           </value>

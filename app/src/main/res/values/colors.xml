@@ -10,5 +10,7 @@
     <color name="colorGreyPrimary">#C1C2D5</color>
     <color name="colorTransparent">#00FFFFFF</color>
     <color name="colorGreyPrimaryEditText">#f3f3f3</color>
+    <color name="colorGreyPrimaryTextView">#A1A1A1</color>
+    <color name="colorGreen">#8FBC1F</color>
 
 </resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingBottom="12dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <TextView
+         android:id="@+id/textviewAmount"
+         style="@style/TextAppearance.AppCompat.Medium"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Transaction ID"
+         android:textColor="@color/colorBlack"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.03.2019"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewAmount" />
+        <View
+            android:id="@+id/view4"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/circle_background_green"/>
+
+        <ImageView
+            android:id="@+id/imageviewMpesa"
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toLeftOf="@+id/view4"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_mpesa"/>
+
+    <TextView
+        android:id="@+id/textviewAmountDate"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="-KES 2,499"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintRight_toLeftOf="@+id/imageviewMpesa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:text="Transaction No."
+        app:layout_constraintRight_toLeftOf="@+id/imageviewMpesa"
+        app:layout_constraintTop_toBottomOf="@+id/textviewAmountDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
